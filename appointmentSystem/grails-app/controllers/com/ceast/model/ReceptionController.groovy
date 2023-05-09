@@ -2,5 +2,5 @@ package com.ceast.model
 
 class ReceptionController {
 
-    def index() { }
+    def scaffold = com.ceast.model.Reception
 }

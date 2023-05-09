@@ -2,5 +2,5 @@ package com.ceast.model
 
 class DoctorController {
 
-    def index() { }
+    def scaffold = com.ceast.model.Doctor
 }

@@ -2,5 +2,5 @@ package com.ceast.model
 
 class NurseController {
 
-    def index() { }
+    def scaffold = com.ceast.model.Nurse
 }

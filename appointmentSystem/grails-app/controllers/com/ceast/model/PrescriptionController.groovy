@@ -2,5 +2,5 @@ package com.ceast.model
 
 class PrescriptionController {
 
-    def index() { }
+    def scaffold = com.ceast.model.Prescription
 }
