@@ -2,14 +2,20 @@ package com.ceast.model
 
 class Appointment {
 
-    AppDateTime dateTime
-    AppDuration int 
-    RoomNumber string
+    DateTime AppDateTime 
+    Int AppDuration 
+    String RoomNumber 
+
+    String toString()
+    {
+        return RoomNumber
+    }
+
+    static belongTo
 
 
 
     static constraints = {
-        Class_()
         Appdatatime()
         AppDuration(min:15,max:60)
         RoomNumber()
