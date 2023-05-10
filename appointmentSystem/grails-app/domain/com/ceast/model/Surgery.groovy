@@ -1,24 +1,30 @@
 package com.ceast.model
 
 class Surgery {
-    Name string
-    Address string
-    Postcode string 
-    Telphone string 
-    NumberofPatients character
-    Description string
-    OpeningTimes string
-    NewPatient Boolean 
+    String name 
+    String address
+    String postCode
+    int telephone
+    int numberOfPatients
+    String description
+    String openingTimes
+    String closingTimes
+    Boolean registeringNewPatients
+
+    String toSring()
+    {
+        return name
+    }
 
 
     static constraints = {
-        Name()
-        Address()
-        Postcode()
-        Telphone ()
-        NumberofPatients()
-        Description()
-        OpeningTimes()
-        NewPatient()
+        name()
+        address()
+        postCode()
+        telephone()
+        numberOfPatients()
+        description()
+        openingTimes()
+        closingTimes()
     }
 }

@@ -2,16 +2,17 @@ package com.ceast.model
 
 class Appointment {
 
-    DateTime AppDateTime 
-    Int AppDuration 
-    String RoomNumber 
+    DateTime appDateTime 
+    int appDuration 
+    String roomNumber 
 
     String toString()
     {
         return RoomNumber
     }
 
-    static belongTo
+    static belongTo = [Surgery: Surgery, Doctor: Doctor, Patient: Patient]
+    static hasMany = [Nurse: Nurse]
 
 
 
