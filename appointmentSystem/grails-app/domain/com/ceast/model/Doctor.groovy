@@ -15,7 +15,7 @@ class Doctor {
     }
 
     static belongTo = [Surgery: Surgery]
-    static hasMany = [Prescription: Prescription, Appointment: Appointment]
+    static hasMany = [prescription: Prescription, appointment: Appointment]
 
     
     

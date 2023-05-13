@@ -14,7 +14,7 @@ class Prescription {
         return patientName
     }
 
-    static belongTo = [Doctor: Doctor, Patient: Patient]
+    static belongTo = [doctor: Doctor, patient: Patient]
 
     static constraints = {
         PrecriptionNumber()

@@ -13,7 +13,7 @@ class Receptionist {
         return recepName
     }
 
-    static belongTo = [Surgery : Surgery]
+    static belongTo = [surgery : Surgery]
 
     static constraints = {
         recepName()
