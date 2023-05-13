@@ -17,7 +17,7 @@ class Prescription {
     static belongTo = [doctor: Doctor, patient: Patient]
 
     static constraints = {
-        precriptionNumber()
+        prescriptionNumber()
         medicine()
         daysSuply()
         totalCost()
