@@ -17,6 +17,8 @@ class Surgery {
     }
 
 
+    static hasMany = [receptionists: Receptionist, nurses: Nurse, doctors: Doctor, patients: Patient, appointments: Appointment]
+
     static constraints = {
         name()
         address()
