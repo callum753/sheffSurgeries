@@ -2,7 +2,7 @@ package com.ceast.model
 
 class Appointment {
 
-    DateTime appDateTime 
+    Date appDateTime 
     int appDuration 
     String roomNumber 
 
