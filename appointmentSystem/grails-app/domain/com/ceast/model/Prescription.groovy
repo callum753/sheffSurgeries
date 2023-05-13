@@ -2,7 +2,7 @@ package com.ceast.model
 
 class Prescription {
 
-    int PrecriptionNumber
+    int prescriptionNumber
     String medicine
     int daysSuply
     BigDecimal totalCost
@@ -17,7 +17,7 @@ class Prescription {
     static belongTo = [doctor: Doctor, patient: Patient]
 
     static constraints = {
-        PrecriptionNumber()
+        precriptionNumber()
         medicine()
         daysSuply()
         totalCost()
