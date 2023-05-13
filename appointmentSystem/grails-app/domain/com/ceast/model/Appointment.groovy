@@ -11,7 +11,7 @@ class Appointment {
         return RoomNumber
     }
 
-    static belongTo = [Surgery: Surgery, Doctor: Doctor, Patient: Patient]
+    static belongTo = [surgery: Surgery, doctor: Doctor, patient: Patient]
     static hasMany = [nurses:Nurse]
     
 
