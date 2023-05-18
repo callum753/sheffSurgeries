@@ -22,7 +22,7 @@ class Doctor {
 
     static constraints = {
         doctorName()
-        qualificaions()
+        qualification()
         position()
         doctorEmail()
         password()
